@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/93749822/219269497-750540f6-cfdd-4d3f-
   </a>
 </p>
 
-## [✨ Deploy - Resolução](https://wesleyallan.github.io/calculator)
+## [✨ Deploy](https://wesleyallan.github.io/calculator)
 
 ## 🚀 Tecnologias
 Tecnologias utilizadas no desenvolvimento no código do projeto.
