@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(180deg, #807ece, #8e7ece);
+}
+
+.container-calc {
+  width: 356px;
+  height: 566px;
+  padding-inline: 33px;
+  border-radius: 50px;
+  background-color: #2d2a37;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5), 0 30px 40px rgba(0, 0, 0, 0.4),
+    0 100px 40px rgba(0, 0, 0, 0.1), inset 0 7px 5px rgba(255, 255, 255, 0.1),
+    inset 0 -7px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* DISPLAY */
+
+.calc-display {
+  margin-top: 54px;
+  padding-inline: 18px;
+}
+
+.calc {
+  min-height: 23.2px;
+  padding-inline: 5px;
+  text-align: right;
+  font-size: 20px;
+  color: #6b6b6b;
+}
+
+.container-result {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #6b6b6b;
+}
+
+.result {
+  font-size: 36px;
+  color: #ebebeb;
+}
+
+/* KEYBOARD */
+
+.calc-keyboard {
+  height: 368px;
+  margin-top: 26px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+/* BUTTON */
+
+.button {
+  height: 64px;
+  width: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ebebeb;
+  font-size: 24px;
+  background: linear-gradient(180deg, #2c2935, #373441);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5),
+    inset 0px 2px 2px rgba(255, 255, 255, 0.05);
+}
+
+.button:hover {
+  filter: brightness(0.9);
+}
+
+.button:active {
+  box-shadow: inset 0px -3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.secondary {
+  color: #975dfa;
+}
+
+.tertiary {
+  background: linear-gradient(180deg, #442773, #50347f);
+}
+
+.button-result {
+  background: linear-gradient(180deg, #703ec3, #864ee3);
+}
+
+.button-github img {
+  width: 30px;
+}

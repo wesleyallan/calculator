@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/calculadora.ico" />
+    <link type="text/css" rel="stylesheet" href="./assets/css/styles.css" />
+    <script src="./assets/js/script.js" type="text/javascript" defer></script>
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="container-calc">
+      <div class="calc-display">
+        <div id="calc" class="calc"></div>
+        <div class="container-result">
+          <img src="./assets/svgs/equals.svg" alt="Sinal de igual" />
+          <span id="result" class="result"></span>
+        </div>
+      </div>
+      <div class="calc-keyboard">
+        <!--      Row     -->
+        <button id="cleanup" class="button secondary">CE</button>
+        <button id="backspace" class="button">C</button>
+        <button id="percent" class="button">
+          <img id="o%" src="./assets/svgs/percent.svg" alt="Sinal de Porcentagem"/>
+        </button>
+        <button id="o/" class="button tertiary">
+          <img src="./assets/svgs/divide.svg" alt="Sinal de multiplicação"/>
+        </button>
+        <!--      Row     -->
+        <button id="n7" class="button">7</button>
+        <button id="n8" class="button">8</button>
+        <button id="n9" class="button">9</button>
+        <button id="o*" class="button tertiary">
+          <img src="./assets/svgs/mult.svg" alt="Sinal de Multipliação" />
+        </button>
+        <!--      Row     -->
+        <button id="n4" class="button">4</button>
+        <button id="n5" class="button">5</button>
+        <button id="n6" class="button">6</button>
+        <button id="o-" class="button tertiary">
+          <img src="./assets/svgs/minus.svg" alt="Sinal de adição" />
+        </button>
+        <!--      Row     -->
+        <button id="n1" class="button">1</button>
+        <button id="n2" class="button">2</button>
+        <button id="n3" class="button">3</button>
+        <button id="o+" class="button tertiary">
+          <img src="./assets/svgs/plus.svg" alt="Sinal de soma" />
+        </button>
+        <!--      Row     -->
+        <button id="signed" class="button button-github">
+          <a href="https://github.com/wesleyallan" target="_blank">
+            <img src="./assets/svgs/github.svg" alt="Ícone Github" />
+          </a>
+        </button>
+        <button id="n0" class="button">0</button>
+        <button id="comma" class="button">,</button>
+        <button id="execute" class="button button-result">
+          <img src="./assets/svgs/result.svg" alt="Botão para resultado" />
+        </button>
+      </div>
+  </body>
+</html>
