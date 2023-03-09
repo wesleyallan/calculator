@@ -1,8 +1,8 @@
 <h1 align="center">
   <img src="./hi.gif" alt="Mão acenando" width="30px">
-  #boraCodar 05 - Calculadora
+  #boraCodar 05 - Calculator
 </h1>
-<p align="center">🌐🚀 resoluções e correções do desafios 05, um projeto de calculadora.</p>
+<p align="center">🌐🚀 Resoluções do desafios 05, um projeto de calculadora.</p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
